@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OJf-b8-Ero">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Bbj-C4-RMf">
+            <objects>
+                <tabBarController id="OJf-b8-Ero" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CKg-y6-vrV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Agn-9i-zn7" kind="relationship" relationship="viewControllers" id="zcO-Fo-5g2"/>
+                        <segue destination="0Cd-d9-CdG" kind="relationship" relationship="viewControllers" id="Cbs-fb-Ii8"/>
+                        <segue destination="Eh5-U4-3dC" kind="relationship" relationship="viewControllers" id="GNC-bO-Qts"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiK-Y7-kk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1417" y="310"/>
+        </scene>
+        <!--Devices-->
+        <scene sceneID="tAk-kO-Aaj">
+            <objects>
+                <navigationController id="0Cd-d9-CdG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Devices" image="laptopcomputer.and.iphone" catalog="system" id="KQA-js-vrO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hOB-aN-66y">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="m7v-na-Ex8" kind="relationship" relationship="rootViewController" id="hPx-mA-pJQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nzj-gf-O26" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1416" y="1038"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="cuN-su-73B">
+            <objects>
+                <navigationController id="Agn-9i-zn7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="Gyb-hj-idp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uFD-S7-3uF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mja-hg-SWv" kind="relationship" relationship="rootViewController" id="k3Y-Xr-9qa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OuO-FB-wIg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2246" y="1038"/>
+        </scene>
+        <!--Configuration-->
+        <scene sceneID="QOL-1j-lNx">
+            <objects>
+                <navigationController id="Eh5-U4-3dC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Configuration" image="gearshape" catalog="system" id="S1R-kI-12H"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ooE-Ij-tEL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ir5-Xd-qfz" kind="relationship" relationship="rootViewController" id="lU5-pW-zqc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xX3-M2-MXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-597" y="1038"/>
+        </scene>
+        <!--ConfigurationView-->
+        <scene sceneID="Ufe-fk-cAc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ConfigurationView" id="ir5-Xd-qfz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SHK-A1-5ts"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5iW-qz-qo0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-597" y="1477"/>
+        </scene>
+        <!--HomeView-->
+        <scene sceneID="JPc-iC-6XN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="HomeView" id="mja-hg-SWv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QXY-0e-I1y"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqc-pT-YOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2246" y="1477"/>
+        </scene>
+        <!--DeviceListView-->
+        <scene sceneID="y15-GL-ncC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DeviceListView" id="m7v-na-Ex8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="T3a-B5-aGo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKX-vx-ZoB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1417" y="1477"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="laptopcomputer.and.iphone" catalog="system" width="128" height="74"/>
+    </resources>
+</document>

@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "name": "iPhone Lucas",
+        "type": "Controller",
+        "access": "Admin",
+        "image": "iPhone",
+        "isFavorite": true,
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Thermostat",
+        "type": "Thermostat",
+        "access": "Guest",
+        "image": "thermostat",
+        "isFavorite": false,
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Kitchen Light",
+        "type": "Light",
+        "access": "Admin",
+        "image": "light",
+        "isFavorite": false,
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "Door Camera",
+        "type": "Camera",
+        "access": "Admin",
+        "image": "camera",
+        "isFavorite": true,
+        "description": ""
+    }
+]

@@ -8,22 +8,25 @@
 import Foundation
 
 protocol HomeViewModelProtocol {
+    // Protocol variables
     var deviceAmount: Int { get set }
     
+    // Protocol methods
     func fetchDeviceCount()
     func addDevice()
 }
 
 class HomeViewModel: HomeViewModelProtocol {
     
+    // viewModel Variables
     var deviceAmount: Int = 0
-    
     let modelURLString = "https://mocki.io/v1/59b8aafc-0743-4d27-a8f0-3fa12b33455f"
     
     init() {
         fetchDeviceCount()
     }
     
+    // viewModel Methods
     func fetchDeviceCount() {
         guard let url = URL(string: modelURLString) else { return }
         
